@@ -1,0 +1,10 @@
+{
+  "name": "petstore-ci-mock",
+  "version": "1.0.0",
+  "dependencies": {
+    "@stoplight/prism-cli": "^5.0.0"
+  },
+  "scripts": {
+    "start": "prism mock openapi.json -h 0.0.0.0 -p $PORT"
+  }
+}
